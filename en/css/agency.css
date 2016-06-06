@@ -3,8 +3,18 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-.img-responsive{
-    height: 135px;
+
+.img-circle {
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.img-border{
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 body {
     overflow-x: hidden;
@@ -279,13 +289,18 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(http://nees.com.br/pt/wp-content/themes/nees/img/banner1.png);
+/*
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+*/
+    background-image: url(../../banner/banner.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 header .intro-text {
