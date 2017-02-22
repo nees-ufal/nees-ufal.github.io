@@ -4,12 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.img-circle {
-    width: 200px;
+.round-img {
+    width: auto;
 	height: 200px;
-	border-radius: 50%;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+
 }
 .img-border{
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -440,7 +438,7 @@ section h3.section-subheading {
     max-width: 300px;
     text-align: center;
     background-color: #fff;
-    height: 150px;
+    height: 125px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
