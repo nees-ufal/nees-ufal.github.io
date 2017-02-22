@@ -9,6 +9,11 @@
 	height: 200px;
 
 }
+.img-size{
+
+    width: auto;
+	height: 100px;
+}
 .img-border{
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
