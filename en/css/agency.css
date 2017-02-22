@@ -294,8 +294,8 @@ header {
     background-attachment: scroll;
 /*
     -webkit-filter: blur(5px);
-    filter: blur(5px);
 */
+    filter: opacity(90%);
     background-image: url(../../banner/banner.jpg);
     background-position: center center;
     background-repeat: none;
@@ -312,6 +312,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -320,7 +321,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+/*    margin-bottom: 25px;*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -330,12 +331,13 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 0px;
+        margin-top:300px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+/*        margin-bottom: 25px;*/
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -343,7 +345,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
