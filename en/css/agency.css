@@ -296,7 +296,7 @@ header {
     -webkit-filter: blur(5px);
 */
     filter: opacity(90%);
-    background-image: url(../../banner/banner.jpg);
+    background-image: url(../../banner/banner.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
